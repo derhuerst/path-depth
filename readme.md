@@ -4,7 +4,7 @@ Get the depth of a file/URL path.
 
 ```javascript
 depth('/a/b/c')    // ->  3
-depth('a\..\b\c')  // ->  2
+depth('a\\..\\b\\c')  // ->  2
 depth('a/./b')     // ->  2
 depth('foo/../..') // -> -1
 depth('.')         // ->  0
