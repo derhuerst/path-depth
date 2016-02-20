@@ -1,6 +1,6 @@
 {
 	"name":              "path-depth",
-	"description":       "Get the path of a file/URL path.",
+	"description":       "Get the depth of a file/URL path.",
 	"version":           "0.1.0",
 	"main":              "index.js",
 	"files":             ["index.js", "readme.md"],

@@ -1,12 +1,14 @@
 # path-depth
 
-Get the path of a file/URL path.
+Get the depth of a file/URL path.
 
-- `/a/b/c` -> `3`
-- `a/b` -> `2`
-- `a\b\c` -> `3`
-- `a\..\b\c` -> `2`
-- `a/./b` -> `2`
+```javascript
+depth('/a/b/c')    // ->  3
+depth('a\..\b\c')  // ->  2
+depth('a/./b')     // ->  2
+depth('foo/../..') // -> -1
+depth('.')         // ->  0
+```
 
 [![build status](https://img.shields.io/travis/derhuerst/path-depth.svg)](https://travis-ci.org/derhuerst/path-depth)
 [![dependency status](https://img.shields.io/david/derhuerst/path-depth.svg)](https://david-dm.org/derhuerst/path-depth#info=dependencies)
