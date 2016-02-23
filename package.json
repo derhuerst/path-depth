@@ -4,12 +4,16 @@
 	"version":           "0.1.0",
 	"main":              "index.js",
 	"files":             ["index.js", "readme.md"],
+	"bin":               {"path-depth": "./bin.js"},
 	"keywords":          ["depth", "relative", "path", "absolute", "path", "resolution"],
 	"author":            "Jannis R <mail@jannisr.de>",
 	"homepage":          "https://github.com/derhuerst/path-depth",
 	"repository":        "git://github.com/derhuerst/path-depth.git",
 	"license":           "ISC",
 	"engines":           {"node": ">=5"},
+	"dependencies": {
+		"get-stdin":     "^5.0.1"
+	},
 	"devDependencies": {
 		"coffee-script": "^1.10",
 		"nodeunit":      "^0.9.1",
