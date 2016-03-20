@@ -1,7 +1,7 @@
 {
 	"name":              "path-depth",
 	"description":       "Get the depth of a file/URL path.",
-	"version":           "0.1.0",
+	"version":           "0.2.0",
 	"main":              "index.js",
 	"files":             ["index.js", "readme.md"],
 	"keywords":          ["depth", "relative", "path", "absolute", "path", "resolution"],
