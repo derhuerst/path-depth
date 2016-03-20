@@ -10,7 +10,7 @@
 	"homepage":          "https://github.com/derhuerst/path-depth",
 	"repository":        "git://github.com/derhuerst/path-depth.git",
 	"license":           "ISC",
-	"engines":           {"node": ">=5"},
+	"engines":           {"node": ">=4"},
 	"dependencies": {
 		"get-stdin":     "^5.0.1"
 	},

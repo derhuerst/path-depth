@@ -3,11 +3,11 @@
 Get the depth of a file/URL path.
 
 ```javascript
-depth('/a/b/c')    // ->  3
-depth('a\\..\\b\\c')  // ->  2
-depth('a/./b')     // ->  2
-depth('foo/../..') // -> -1
-depth('.')         // ->  0
+depth('/a/b/c')      //  3
+depth('a\\..\\b\\c') //  2
+depth('a/./b')       //  2
+depth('foo/../..')   // -1
+depth('.')           //  0
 ```
 
 [![build status](https://img.shields.io/travis/derhuerst/path-depth.svg)](https://travis-ci.org/derhuerst/path-depth)
@@ -17,19 +17,9 @@ depth('.')         // ->  0
 
 ## Installing
 
-```
+```shell
 npm install path-depth
 ```
-
-
-## Usage
-
-```
-const depth = require('path-depth')
-
-depth('/foo/bar') // -> 2
-```
-
 
 
 ## Contributing

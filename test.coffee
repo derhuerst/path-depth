@@ -1,9 +1,5 @@
 d = require './index.js'
 
-
-
-
-
 module.exports =
 
 	'throws an error if invalid argument passed': (test) ->
