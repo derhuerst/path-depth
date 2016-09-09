@@ -11,13 +11,9 @@
 	"license":           "ISC",
 	"engines":           {"node": ">=4"},
 	"devDependencies": {
-		"coffee-script": "^1.10",
-		"nodeunit":      "^0.9.1",
-		"watchy":        "^0.6.6"
 	},
 	"scripts": {
-		"test":          "nodeunit --reporter minimal test.coffee",
-		"test:watch":    "watchy -s -w . nodeunit --reporter minimal test.coffee",
-		"prepublish":    "npm test"
+		"test": "node test.js | tap-min",
+		"prepublish": "npm test"
 	}
 }
