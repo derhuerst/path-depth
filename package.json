@@ -3,7 +3,7 @@
 	"description":       "Get the depth of a file/URL path.",
 	"version":           "0.2.0",
 	"main":              "index.js",
-	"files":             ["index.js", "readme.md"],
+	"files":             ["index.js"],
 	"keywords":          ["depth", "relative", "path", "absolute", "path", "resolution"],
 	"author":            "Jannis R <mail@jannisr.de>",
 	"homepage":          "https://github.com/derhuerst/path-depth",
