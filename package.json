@@ -19,11 +19,11 @@
 	"repository": "git://github.com/derhuerst/path-depth.git",
 	"license": "ISC",
 	"engines": {
-		"node": ">=4"
+		"node": ">=8"
 	},
 	"devDependencies": {
-		"tape": "^4.6",
-		"tap-min": "^1.1"
+		"tap-min": "^2.0.0",
+		"tape": "^4.6"
 	},
 	"scripts": {
 		"test": "node test.js | tap-min",
