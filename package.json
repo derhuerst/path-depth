@@ -1,15 +1,26 @@
 {
-	"name":              "path-depth",
-	"description":       "Get the depth of a file/URL path.",
-	"version":           "0.2.0",
-	"main":              "index.js",
-	"files":             ["index.js"],
-	"keywords":          ["depth", "relative", "path", "absolute", "path", "resolution"],
-	"author":            "Jannis R <mail@jannisr.de>",
-	"homepage":          "https://github.com/derhuerst/path-depth",
-	"repository":        "git://github.com/derhuerst/path-depth.git",
-	"license":           "ISC",
-	"engines":           {"node": ">=4"},
+	"name": "path-depth",
+	"description": "Get the depth of a file/URL path.",
+	"version": "0.2.0",
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"depth",
+		"relative",
+		"path",
+		"absolute",
+		"path",
+		"resolution"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/path-depth",
+	"repository": "git://github.com/derhuerst/path-depth.git",
+	"license": "ISC",
+	"engines": {
+		"node": ">=4"
+	},
 	"devDependencies": {
 		"tape": "^4.6",
 		"tap-min": "^1.1"

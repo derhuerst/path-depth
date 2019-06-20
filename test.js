@@ -1,7 +1,6 @@
 'use strict'
 
 const test = require('tape')
-
 const depth = require('./index')
 
 test('throws if invalid argument passed', (t) => {
